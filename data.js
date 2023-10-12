@@ -22,7 +22,7 @@ export const posts = [
         isLiked: false,
         uuid: uuidv4()
     },
-        {
+    {
         name: "Joseph Ducreux",
         username: "jd1735",
         location: "Paris, France",

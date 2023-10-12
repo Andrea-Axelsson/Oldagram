@@ -1,137 +1,137 @@
 /* LAYOUT */
 
-html, body {
+html,
+body {
     margin: 0 auto;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Source Sans Pro', sans-serif;
     width: 375px;
-    background-color: #e6e3e3;    
+    background-color: #e6e3e3;
 }
 
-body{
-    background-color: #fff; 
+body {
+    background-color: #fff;
 }
 
-.header-container{
-    
+.header-container {
+
     display: flex;
     background-color: white;
     justify-content: space-between;
     align-items: center;
     padding: 0 16px 5px 16px;
-        
+
 }
 
-header{
-z-index: 1;
-position: sticky;
-top: 0;
-margin-top: 1px; 
-border-bottom: solid 2px #f5f5f5;    
+header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    margin-top: 1px;
+    border-bottom: solid 2px #f5f5f5;
 }
 
-.logo{
-width: 127px;
+.logo {
+    width: 127px;
 }
 
-.img-avatar{
+.img-avatar {
     height: 34px;
     width: 34px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.profile{
+.profile {
     display: flex;
     justify-content: left;
     align-items: center;
     padding: 10px 16px 0px 16px;
-    
+
 }
 
-.profile-info{
+.profile-info {
     margin: 0 7px;
 }
 
-.post-img{
+.post-img {
     width: 375px;
     padding-top: 10px;
 }
 
-.heart-container{
+.heart-container {
     position: relative;
     width: 375px;
     padding-top: 10px;
 }
 
-.big-post-heart-liked{
+.big-post-heart-liked {
     font-size: 150px;
-    transform:translate(-50%,-50%);
-    top:50%;
-    left:50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
     position: absolute;
-      
+
 }
 
 
-.big-post-heart-not-liked{
+.big-post-heart-not-liked {
     font-size: 0px;
-    transform:translate(-50%,-50%);
-    top:50%;
-    left:50%;
-    position: absolute;         
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
 }
 
-.body{
+.body {
     display: flex;
     justify-content: left;
     flex-direction: column;
     align-items: left;
-    padding: 10px 16px 15px 16px; 
+    padding: 10px 16px 15px 16px;
 }
 
 /* FONT/Styling */
 
 #name,
 #likes,
-#username{
-   font-weight: 900; 
+#username {
+    font-weight: 900;
 }
 
-p{
+p {
     margin: 2px;
 }
 
-.icons{
+.icons {
     margin-bottom: 5px;
 }
 
-.icon{
-font-size: 24px;
-margin-right: 16px;
+.icon {
+    font-size: 24px;
+    margin-right: 16px;
 }
 
 
-.fa-solid{
-  color: #f80000; 
+.fa-solid {
+    color: #f80000;
 }
 
 
-.icon:hover{
+.icon:hover {
     color: #c3c3c3;
 }
 
 .fade-out {
-  animation: fadeOut 1s;
+    animation: fadeOut 1s;
 }
 
 @keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
-
-
